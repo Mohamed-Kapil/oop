@@ -17,10 +17,15 @@ namespace oop
             #endregion
 
             #region question 2 (a)
-         /* a) Problems with the design
-              1-The fields are public, so they can be accessed and modified directly from outside the class or struct.
-              2-There is no validation for the data.
-              3-There is no control over how the data is accessed or modified, which weakens encapsulation.*/
+            /* a) Problems with the design
+                 1-The fields are public, so they can be accessed and modified directly from outside the class or struct.
+                 2-There is no validation for the data.
+                 3-There is no control over how the data is accessed or modified, which weakens encapsulation.*/
+            #endregion
+
+            #region question 2 (b)
+            /* Private fields and public properties can improve encapsulation by hiding the internal data and controlling access to it.
+               The properties can use get and set accessors, and validation can be added inside the set accessor.*/
             #endregion
         }
     }
