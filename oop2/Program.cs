@@ -1,10 +1,19 @@
-﻿namespace oop2
+﻿using System.Numerics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace oop2
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region part1 question 1 (A)
+            /*When we create an object from a class and copy it to another variable, both variables refer to the same object in memory.Therefore, changing one variable can affect the other.
+             When we copy a struct, a new copy of its data is created.Therefore, changing one variable does not affect the other.
+             Classes can support inheritance, while structs cannot inherit from another class or struct.
+             Classes are usually used for complex objects and large amounts of data, while structs are suitable for small and simple data...*/
+            #endregion
+            
         }
     }
 }
