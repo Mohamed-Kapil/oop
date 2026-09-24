@@ -13,7 +13,11 @@ namespace oop2
              Classes can support inheritance, while structs cannot inherit from another class or struct.
              Classes are usually used for complex objects and large amounts of data, while structs are suitable for small and simple data...*/
             #endregion
-            
+
+            #region part1 question 1 (B)
+            /*Classes are more suitable for large applications because they support inheritance, polymorphism, encapsulation, and reference-type behavior.
+             * They make it easier to organize and manage complex objects and relationships between different parts of the application.*/
+            #endregion
         }
     }
 }
