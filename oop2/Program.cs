@@ -26,6 +26,10 @@ namespace oop2
             #region part1 question 2 (B)
             /*The child class is ExpressShipment because it inherits from the Shipment class.*/
             #endregion
+
+            #region part1 question 2 (C)
+            /*The ExpressShipment class inherits the TrackingCode property from the Shipment class.*/
+            #endregion
         }
     }
 }
