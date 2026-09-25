@@ -1,0 +1,16 @@
+D:\mk\oop2\oop2\bin\Debug\net10.0\oop2.exe
+D:\mk\oop2\oop2\bin\Debug\net10.0\oop2.deps.json
+D:\mk\oop2\oop2\bin\Debug\net10.0\oop2.runtimeconfig.json
+D:\mk\oop2\oop2\bin\Debug\net10.0\oop2.dll
+D:\mk\oop2\oop2\bin\Debug\net10.0\oop2.pdb
+D:\mk\oop2\oop2\obj\Debug\net10.0\oop2.GeneratedMSBuildEditorConfig.editorconfig
+D:\mk\oop2\oop2\obj\Debug\net10.0\oop2.AssemblyInfoInputs.cache
+D:\mk\oop2\oop2\obj\Debug\net10.0\oop2.AssemblyInfo.cs
+D:\mk\oop2\oop2\obj\Debug\net10.0\oop2.csproj.CoreCompileInputs.cache
+D:\mk\oop2\oop2\obj\Debug\net10.0\oop2.sourcelink.json
+D:\mk\oop2\oop2\obj\Debug\net10.0\oop2.dll
+D:\mk\oop2\oop2\obj\Debug\net10.0\refint\oop2.dll
+D:\mk\oop2\oop2\obj\Debug\net10.0\oop2.pdb
+D:\mk\oop2\oop2\obj\Debug\net10.0\oop2.genruntimeconfig.cache
+D:\mk\oop2\oop2\obj\Debug\net10.0\ref\oop2.dll
+D:\mk\oop2\oop2\obj\Debug\net10.0\oop2.csproj.Up2Date
