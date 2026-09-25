@@ -25,6 +25,12 @@ namespace oop3
             /*The sealed keyword prevents a class from being inherited by other classes. 
              * A sealed class cannot be used as a base class.*/
             #endregion
+
+            #region part1 question 2 (b)
+            /*A sealed class prevents other classes from inheriting from it.
+            *A sealed method prevents a derived class from overriding that specific method.
+            *A sealed method must be an overridden method.*/
+            #endregion
         }
     }
 }
