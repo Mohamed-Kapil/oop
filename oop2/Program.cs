@@ -30,6 +30,11 @@ namespace oop2
             #region part1 question 2 (C)
             /*The ExpressShipment class inherits the TrackingCode property from the Shipment class.*/
             #endregion
+
+            #region part1 question 2 (D)
+            /*Inheritance is better because it allows us to reuse common code without duplicating it.
+             * It makes the code easier to maintain, reduces repetition, and keeps the program more organized.*/
+            #endregion
         }
     }
 }
