@@ -31,6 +31,12 @@ namespace oop3
             *A sealed method prevents a derived class from overriding that specific method.
             *A sealed method must be an overridden method.*/
             #endregion
+
+            #region part1 question 2 (c)
+            /*No, a sealed method cannot be overridden.
+            *The sealed keyword is used with an overridden method to prevent further overriding in derived classes.
+            *It stops the overriding chain at the current class.*/
+            #endregion
         }
     }
 }
