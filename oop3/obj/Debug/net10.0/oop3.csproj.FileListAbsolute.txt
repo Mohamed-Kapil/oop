@@ -1,0 +1,16 @@
+D:\mk\oop3\oop3\bin\Debug\net10.0\oop3.exe
+D:\mk\oop3\oop3\bin\Debug\net10.0\oop3.deps.json
+D:\mk\oop3\oop3\bin\Debug\net10.0\oop3.runtimeconfig.json
+D:\mk\oop3\oop3\bin\Debug\net10.0\oop3.dll
+D:\mk\oop3\oop3\bin\Debug\net10.0\oop3.pdb
+D:\mk\oop3\oop3\obj\Debug\net10.0\oop3.GeneratedMSBuildEditorConfig.editorconfig
+D:\mk\oop3\oop3\obj\Debug\net10.0\oop3.AssemblyInfoInputs.cache
+D:\mk\oop3\oop3\obj\Debug\net10.0\oop3.AssemblyInfo.cs
+D:\mk\oop3\oop3\obj\Debug\net10.0\oop3.csproj.CoreCompileInputs.cache
+D:\mk\oop3\oop3\obj\Debug\net10.0\oop3.sourcelink.json
+D:\mk\oop3\oop3\obj\Debug\net10.0\oop3.dll
+D:\mk\oop3\oop3\obj\Debug\net10.0\refint\oop3.dll
+D:\mk\oop3\oop3\obj\Debug\net10.0\oop3.pdb
+D:\mk\oop3\oop3\obj\Debug\net10.0\oop3.genruntimeconfig.cache
+D:\mk\oop3\oop3\obj\Debug\net10.0\ref\oop3.dll
+D:\mk\oop3\oop3\obj\Debug\net10.0\oop3.csproj.Up2Date

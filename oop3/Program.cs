@@ -1,4 +1,5 @@
-﻿using System.Numerics;
+﻿using oop3.RouteDeliverySystem;
+using System.Numerics;
 
 namespace oop3
 {
@@ -37,6 +38,54 @@ namespace oop3
             *The sealed keyword is used with an overridden method to prevent further overriding in derived classes.
             *It stops the overriding chain at the current class.*/
             #endregion
+
+            #region Part 02 Practical
+
+            Driver driver = new Driver(1, "Ahmed Mohamed", "01000000000");
+            DeliveryCenter center = new DeliveryCenter();
+            center.Driver = driver;
+            DeliveryAddress address = new DeliveryAddress("123 Main St", "Cairo");
+            StandardShipment standard = new StandardShipment("SH001", "Laptop", 3, 50, address);
+            ExpressShipment express = new ExpressShipment("SH002", "Mobile Phone", 2, 60, 30, address);
+            InternationalShipment international = new InternationalShipment("SH003", "Television", 5, 120, "germany", 100, address);
+            center.AddShipment(standard);
+            center.AddShipment(express);
+            center.AddShipment(international);
+            center.PrintAllShipments();
+
+            Console.WriteLine("==================================================");
+            Console.WriteLine("Printing Using DeliveryHelper...\n");
+            DeliveryHelper.PrintShipmentDetails(standard);
+            Console.WriteLine();
+            DeliveryHelper.PrintShipmentDetails(express);
+            Console.WriteLine();
+            DeliveryHelper.PrintShipmentDetails(international);
+            Console.WriteLine();
+            Console.WriteLine("==================================================");
+
+            Console.WriteLine("Updating Weight...\n");
+            Console.WriteLine($"Original Weight : {standard.Weight} KG\n");
+            standard.UpdateWeight(5);
+            Console.WriteLine($"Updated Weight : {standard.Weight} KG\n");
+            standard.UpdateWeight(5, 0.5);
+            Console.WriteLine($"Updated Weight After Packing : {standard.Weight} KG\n");
+            Console.WriteLine("==================================================");
+
+            Console.WriteLine("Printing Using Shipment[]...\n");
+            Shipment[] mixedShipments = { standard, express, international };
+            foreach (Shipment s in mixedShipments)
+            {
+                Console.WriteLine($"{s.GetType().Name}...");
+                Console.WriteLine();
+            }
+            Console.WriteLine("==================================================");
+
+            CompletedShipment completed = new CompletedShipment("SH004", "Book", 1, 20, address);
+
+            PriorityInternationalShipment priority = new PriorityInternationalShipment("SH005", "Documents", 0.5, 200, "USA", 50, address);
+            priority.GenerateCustomsReport();
+            #endregion
+            
         }
     }
 }
