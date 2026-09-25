@@ -21,7 +21,10 @@ namespace oop2
 
             #region part1 question 2 (A)
             /*The parent class is Shipment because it is the class that is inherited from.*/
+            #endregion
 
+            #region part1 question 2 (B)
+            /*The child class is ExpressShipment because it inherits from the Shipment class.*/
             #endregion
         }
     }
