@@ -20,6 +20,11 @@ namespace oop3
              *Dynamic Binding means that the method to be executed is determined at runtime based on the actual object type.
              *It is commonly associated with method overriding and polymorphism.*/
             #endregion
+
+            #region part1 question 2 (a)
+            /*The sealed keyword prevents a class from being inherited by other classes. 
+             * A sealed class cannot be used as a base class.*/
+            #endregion
         }
     }
 }
