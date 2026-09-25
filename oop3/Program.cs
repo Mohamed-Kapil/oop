@@ -13,7 +13,12 @@ namespace oop3
              *The method in the base class must be virtual or abstract, and the derived class uses override.
              *It is resolved at runtime and requires inheritance.*/
             #endregion
-            #region
+
+            #region part1 question 1 (b)
+            /*Static Binding means that the method to be executed is determined at compile time. 
+             * It is commonly associated with method overloading.
+             *Dynamic Binding means that the method to be executed is determined at runtime based on the actual object type.
+             *It is commonly associated with method overriding and polymorphism.*/
             #endregion
         }
     }
