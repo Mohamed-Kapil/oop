@@ -18,6 +18,11 @@ namespace oop2
             /*Classes are more suitable for large applications because they support inheritance, polymorphism, encapsulation, and reference-type behavior.
              * They make it easier to organize and manage complex objects and relationships between different parts of the application.*/
             #endregion
+
+            #region part1 question 2 (A)
+            /*The parent class is Shipment because it is the class that is inherited from.*/
+
+            #endregion
         }
     }
 }
