@@ -14,7 +14,10 @@
              * It only copies the reference, so both variables refer to the same object.*/
             #endregion
 
-            
+            #region part1 Q1  Object Copying (c)
+            /*Copying a reference means that two variables refer to the same object, so changes made through one variable affect the other.
+             * Copying an object means creating a new, independent object with the same data, so changes to one object do not affect the other.*/
+            #endregion
         }
     }
 }
