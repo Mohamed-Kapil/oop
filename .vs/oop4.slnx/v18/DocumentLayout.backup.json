@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\mk\\oop4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36CAF5AC-3196-4A8C-893D-B042338A98CA}|oop4\\oop4.csproj|d:\\mk\\oop4\\oop4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CAF5AC-3196-4A8C-893D-B042338A98CA}|oop4\\oop4.csproj|solutionrelative:oop4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F9B8C05D-A4DA-35EB-C756-ADAD25D1BADC}|oop4\\oop4.csproj|d:\\mk\\oop4\\oop4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B8C05D-A4DA-35EB-C756-ADAD25D1BADC}|oop4\\oop4.csproj|solutionrelative:oop4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "oop4\\Program.cs",
               "ToolTip": "D:\\mk\\oop4\\oop4\\Program.cs",
               "RelativeToolTip": "oop4\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-25T19:03:21.573Z",
               "EditorCaption": ""

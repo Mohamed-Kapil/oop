@@ -13,6 +13,11 @@
             #endregion
 
             #region part 1 question 2 (a)
+            /*An abstract class is a class that cannot be instantiated directly and can contain fields, properties, constructors, concrete methods, and abstract methods.
+             * An interface defines a contract that specifies the members a class must implement.*/
+            #endregion
+
+            #region part 1 question 2 (b)
             #endregion
         }
     }
