@@ -1,4 +1,6 @@
-﻿namespace oop4
+﻿using oop4.RouteDeliverySystem;
+
+namespace oop4
 {
     internal class Program
     {
@@ -18,6 +20,35 @@
             #endregion
 
             #region part 1 question 2 (b)
+            /*We choose an interface when we want different and unrelated classes to share a common behavior or contract.
+             * A class can implement multiple interfaces, making interfaces useful when multiple behaviors are required.*/
+            #endregion
+
+            #region part 1 question 2 (c)
+            /*No, a class cannot inherit from multiple abstract classes because C# supports single class inheritance.
+             * However, a class can implement multiple interfaces.*/
+            #endregion
+
+            #region part 2  Practical
+            var s1 = new StandardShipment { TrackingCode = "SH001", Description = "Laptop" };
+            var s2 = new ExpressShipment { TrackingCode = "SH002", ExtraFee = 30m };
+            var s3 = new InternationalShipment { TrackingCode = "SH003", Destination = new DeliveryAddress { Country = "Germany" } };
+
+            var center = new DeliveryCenter();
+            center.AddShipment(s1);
+            center.AddShipment(s2);
+            center.AddShipment(s3);
+            center.PrintAllShipments();
+            center.PrintTrackingStatuses();
+            center.PrintInsuranceCosts();
+
+            
+            ITrackable[] trackables = { s1, s2, s3 };
+           
+            IInsurable[] insurables = { s1, s2, s3 };
+
+            Console.WriteLine("Interface Polymorphism Demonstrated Successfully.");
+
             #endregion
         }
     }
