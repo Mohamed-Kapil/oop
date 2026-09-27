@@ -31,6 +31,10 @@
             #region part1 Q2  Shallow Copy vs Deep Copy (c)
             /*The references are copied, so both the original object and the copied object refer to the same reference-type objects.*/
             #endregion
+
+            #region part1 Q2  Shallow Copy vs Deep Copy (d)
+            /*New independent objects are created for the reference-type members, so the original and copied objects do not share those objects.*/
+            #endregion
         }
     }
 }
