@@ -50,6 +50,12 @@
              * A static method cannot directly access instance members because they belong to a specific object.*/
             #endregion
 
+            #region part1 Q3  Static Members (c)
+            /*A static constructor is used to initialize static members of a class. It is executed automatically once,
+             * before the type is first used or a static member requiring initialization is accessed.*/
+            #endregion
+
+            #region 
         }
     }
 }
