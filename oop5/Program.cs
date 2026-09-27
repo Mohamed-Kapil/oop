@@ -24,6 +24,9 @@
              * For reference-type members, it copies the references instead of creating new objects.*/
             #endregion
 
+            #region part1 Q2  Shallow Copy vs Deep Copy (b)
+            /*A Deep Copy creates a new object and also creates independent copies of the reference-type objects contained inside it.*/
+            #endregion
         }
     }
 }
