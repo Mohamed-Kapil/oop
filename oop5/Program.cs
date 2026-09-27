@@ -69,6 +69,9 @@
             /*The this keyword must be used in the first parameter of an extension method to specify the type being extended.*/
             #endregion
 
+            #region part1 Q4 Extension Methods (c)
+            /*An extension method must be declared inside a static class, and the extension method itself must also be static.*/
+            #endregion
 
         }
     }
