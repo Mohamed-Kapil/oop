@@ -65,6 +65,11 @@
              * without modifying the original type or creating a derived class.*/
             #endregion
 
+            #region part1 Q4 Extension Methods (b)
+            /*The this keyword must be used in the first parameter of an extension method to specify the type being extended.*/
+            #endregion
+
+
         }
     }
 }
