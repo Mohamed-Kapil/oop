@@ -27,6 +27,10 @@
             #region part1 Q2  Shallow Copy vs Deep Copy (b)
             /*A Deep Copy creates a new object and also creates independent copies of the reference-type objects contained inside it.*/
             #endregion
+
+            #region part1 Q2  Shallow Copy vs Deep Copy (c)
+            /*The references are copied, so both the original object and the copied object refer to the same reference-type objects.*/
+            #endregion
         }
     }
 }
