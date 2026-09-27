@@ -45,6 +45,11 @@
              * An instance field belongs to a specific object, so each object has its own copy.*/
             #endregion
 
+            #region part1 Q3  Static Members (b)
+            /*A static method belongs to the class rather than a specific object, so it can be called using the class name without creating an object.
+             * A static method cannot directly access instance members because they belong to a specific object.*/
+            #endregion
+
         }
     }
 }
