@@ -90,6 +90,11 @@
             /*A Partial Method is a method that can be declared in one part of a partial class and implemented in another part.*/
             #endregion
 
+            #region part1 Q5 Partial Classes and Partial Methods (d)
+            /*For an optional partial method in the traditional form, if it has no implementation,
+             * the compiler removes the method declaration and its calls from the compiled code.*/
+            #endregion
+
         }
     }
 }
