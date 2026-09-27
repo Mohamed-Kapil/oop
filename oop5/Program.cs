@@ -86,6 +86,10 @@
             /*A developer may split a class into multiple files to improve code organization, readability, maintainability, and make large classes easier to manage.*/
             #endregion
 
+            #region part1 Q5 Partial Classes and Partial Methods (c)
+            /*A Partial Method is a method that can be declared in one part of a partial class and implemented in another part.*/
+            #endregion
+
         }
     }
 }
