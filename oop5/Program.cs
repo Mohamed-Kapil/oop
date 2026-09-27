@@ -77,6 +77,12 @@
             /*No. An extension method cannot directly access private members of the class it extends because it is declared outside the original class.*/
             #endregion
 
+            #region part1 Q5 Partial Classes and Partial Methods (a)
+            /*A Partial Class is a class that can be divided into multiple parts and declared in multiple files using the partial keyword.
+             * The compiler combines all parts into one class.*/
+            #endregion
+
+
         }
     }
 }
