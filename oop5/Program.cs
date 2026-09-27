@@ -39,6 +39,12 @@
             #region part1 Q2  Shallow Copy vs Deep Copy (e)
             /*Deep Copy is safer when creating a copy of user data before modifying it, because changes to the copied object will not affect the original data.*/
             #endregion
+
+            #region part1 Q3  Static Members (a)
+            /*A static field belongs to the class itself and has only one shared copy for all objects of the class.
+             * An instance field belongs to a specific object, so each object has its own copy.*/
+            #endregion
+
         }
     }
 }
