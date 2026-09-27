@@ -35,6 +35,10 @@
             #region part1 Q2  Shallow Copy vs Deep Copy (d)
             /*New independent objects are created for the reference-type members, so the original and copied objects do not share those objects.*/
             #endregion
+
+            #region part1 Q2  Shallow Copy vs Deep Copy (e)
+            /*Deep Copy is safer when creating a copy of user data before modifying it, because changes to the copied object will not affect the original data.*/
+            #endregion
         }
     }
 }
