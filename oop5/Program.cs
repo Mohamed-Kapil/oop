@@ -60,6 +60,11 @@
              * No, you cannot create an object from a static class.*/
             #endregion
 
+            #region part1 Q4 Extension Methods (a)
+            /*An Extension Method is a static method that allows us to add new functionality to an existing type
+             * without modifying the original type or creating a derived class.*/
+            #endregion
+
         }
     }
 }
