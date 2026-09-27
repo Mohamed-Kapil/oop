@@ -73,6 +73,10 @@
             /*An extension method must be declared inside a static class, and the extension method itself must also be static.*/
             #endregion
 
+            #region part1 Q4 Extension Methods (d)
+            /*No. An extension method cannot directly access private members of the class it extends because it is declared outside the original class.*/
+            #endregion
+
         }
     }
 }
