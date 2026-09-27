@@ -82,6 +82,9 @@
              * The compiler combines all parts into one class.*/
             #endregion
 
+            #region part1 Q5 Partial Classes and Partial Methods (b)
+            /*A developer may split a class into multiple files to improve code organization, readability, maintainability, and make large classes easier to manage.*/
+            #endregion
 
         }
     }
