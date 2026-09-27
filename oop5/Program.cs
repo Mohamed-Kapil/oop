@@ -1,4 +1,6 @@
-﻿namespace oop5
+﻿using oop5.SmartDeliveryManagementSystem;
+
+namespace oop5
 {
     internal class Program
     {
@@ -95,6 +97,97 @@
              * the compiler removes the method declaration and its calls from the compiled code.*/
             #endregion
 
+            #region part 2 Practical
+
+            DeliveryUtilities.PrintSystemTitle("Smart Delivery Management System");
+
+            int initTrigger = Shipment.TotalShipmentsCreated;
+
+            DeliveryUtilities.PrintSystemTitle("Creating Shipments...");
+
+            Shipment sh1 = new Shipment("SH001", "Standard", 3.0, "Cairo");
+            Console.WriteLine("Standard Shipment Created");
+
+            Shipment sh2 = new Shipment("SH002", "Express", 2.0, "Giza");
+            Console.WriteLine("Express Shipment Created");
+            sh2.UpdateTrackingStatus("Out For Delivery");
+
+            Shipment sh3 = new Shipment("SH003", "International", 8.0, "Alexandria");
+            Console.WriteLine("International Shipment Created");
+            sh3.UpdateTrackingStatus("Delivered");
+
+            Console.WriteLine($"\nTotal Shipments Created : {Shipment.GetTotalShipmentsCreated()}\n");
+
+
+            DeliveryUtilities.PrintSystemTitle("Object Copying");
+            Shipment assignedShipment = sh1;
+
+            Console.WriteLine($"Original Shipment  : {sh1.TrackingCode}");
+            Console.WriteLine($"Assigned Shipment  : {assignedShipment.TrackingCode}");
+            Console.WriteLine($"\nSame Object : {ReferenceEquals(sh1, assignedShipment)}\n");
+
+
+            DeliveryUtilities.PrintSubSeparator();
+            Console.WriteLine("Shallow Copy");
+            DeliveryUtilities.PrintSubSeparator();
+
+            Shipment shallowCopiedShipment = sh1.ShallowCopy();
+
+            Console.WriteLine($"\nOriginal Shipment Address : {sh1.Address.City}");
+            Console.WriteLine($"Copied Shipment Address   : {shallowCopiedShipment.Address.City}\n");
+
+            Console.WriteLine("Changing copied shipment address...\n");
+            shallowCopiedShipment.Address.City = "Giza";
+
+            Console.WriteLine($"Original Shipment Address : {sh1.Address.City}");
+            Console.WriteLine($"Copied Shipment Address   : {shallowCopiedShipment.Address.City}");
+            Console.WriteLine($"\nSame DeliveryAddress Object : {ReferenceEquals(sh1.Address, shallowCopiedShipment.Address)}\n");
+
+
+            sh1.Address.City = "Cairo";
+
+            DeliveryUtilities.PrintSubSeparator();
+            Console.WriteLine("Deep Copy");
+            DeliveryUtilities.PrintSubSeparator();
+
+            Shipment deepCopiedShipment = sh1.DeepCopy();
+
+            Console.WriteLine($"\nOriginal Shipment Address : {sh1.Address.City}");
+            Console.WriteLine($"Copied Shipment Address   : {deepCopiedShipment.Address.City}\n");
+
+            Console.WriteLine("Changing copied shipment address...\n");
+            deepCopiedShipment.Address.City = "Giza";
+
+            Console.WriteLine($"Original Shipment Address : {sh1.Address.City}");
+            Console.WriteLine($"Copied Shipment Address   : {deepCopiedShipment.Address.City}");
+            Console.WriteLine($"\nSame DeliveryAddress Object : {ReferenceEquals(sh1.Address, deepCopiedShipment.Address)}\n");
+
+
+            DeliveryUtilities.PrintSystemTitle("Extension Methods");
+
+            Console.WriteLine(sh1.GetSummary());
+            Console.WriteLine(sh2.GetSummary());
+            Console.WriteLine(sh3.GetSummary());
+
+            Console.WriteLine($"\n{sh1.TrackingCode} Is Delivered : {sh1.IsDelivered()}");
+            Console.WriteLine($"{sh3.TrackingCode} Is Delivered : {sh3.IsDelivered()}\n");
+
+
+            DeliveryUtilities.PrintSystemTitle("Tracking Status / Partial Method");
+            sh1.UpdateTrackingStatus("Out For Delivery");
+
+
+            DeliveryUtilities.PrintSystemTitle("Static Utilities");
+            DeliveryUtilities.PrintSubSeparator();
+            Console.WriteLine("Delivery Center");
+            DeliveryUtilities.PrintSubSeparator();
+            Console.WriteLine($"\nTotal Shipments Created : {Shipment.GetTotalShipmentsCreated()}\n");
+
+            DeliveryUtilities.PrintSystemTitle("Assignment Completed");
+            #endregion
+
         }
     }
 }
+   
+
