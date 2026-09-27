@@ -55,7 +55,11 @@
              * before the type is first used or a static member requiring initialization is accessed.*/
             #endregion
 
-            #region 
+            #region part1 Q3  Static Members (d)
+            /*A static class is a class that cannot be instantiated and is used to contain static members.
+             * No, you cannot create an object from a static class.*/
+            #endregion
+
         }
     }
 }
